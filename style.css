@@ -148,3 +148,33 @@ body {
     font-size: 16px;
     font-weight: 700;
 }
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #0A0826;
+    color: #fff;
+}
+
+footer h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer .copyright {
+    color: #D9DBE1;
+    margin: 5px 0;
+}
+
+footer .social-media-icons .fab{
+    font-size: 22px;
+    margin: 8px;
+    background-color: #22213C;
+    padding: 8px;
+    border-radius: 50%;
+}
