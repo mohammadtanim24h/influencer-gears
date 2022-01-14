@@ -1,0 +1,78 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Common styles */
+
+.container {
+    max-width: 1400px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+
+/* Header Section */
+
+.logo-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+/* Journey Section */
+
+.influencer-journey {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.journey-left h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.journey-left p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.7;
+    margin: 16px 0;
+}
+
+.prebook-button {
+    outline: 0;
+    border: 0;
+    border-radius: 20px;
+    font-size: 17px;
+    padding: 10px 24px;
+    color: #fff;
+    background-color: #E02C6D;
+    font-weight: 700;
+}
+
+.fa-arrow-right {
+    margin-left: 8px;
+}
+
+.journey-right {
+    display: flex;
+    justify-content: center;
+}
+
+.journey-right img {
+    width: 70%;
+    position: relative;
+    top: -70px;
+}
+
+/* Collection */
+
