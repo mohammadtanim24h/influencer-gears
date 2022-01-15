@@ -213,6 +213,7 @@ body {
     height: 150px;
     border-radius: 50%;
     float: right;
+    object-fit: cover;
 }
 
 /* Footer */
