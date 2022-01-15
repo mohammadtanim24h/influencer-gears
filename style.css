@@ -178,7 +178,7 @@ body {
 /* Customer Reviews */
 
 .customer-reviews {
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 .customer-reviews > h4 {
@@ -272,7 +272,7 @@ footer .social-media-icons .fab{
     .logo-title {
         text-align: center;
     }
-    .influencer-journey {
+    .influencer-journey, .collection, .reviews {
         grid-template-columns: 1fr;
     }
     .journey-left {
@@ -284,14 +284,11 @@ footer .social-media-icons .fab{
     .journey-left h1 {
         font-size: 35px;
     }
-    .collection {
-        grid-template-columns: 1fr;
-    }
-    .reviews {
-        grid-template-columns: 1fr;
-    }
     .prebook-button {
         padding: 5px 10px;
+    }
+    .see-more {
+        text-align: center;
     }
 }
 
