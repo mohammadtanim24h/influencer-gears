@@ -60,6 +60,7 @@ body {
     color: #fff;
     background-color: #E02C6D;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .fa-arrow-right {
@@ -171,10 +172,15 @@ footer .copyright {
     margin: 5px 0;
 }
 
+footer .social-media-icons a {
+    text-decoration: none;
+}
+
 footer .social-media-icons .fab{
     font-size: 22px;
     margin: 8px;
-    background-color: #22213C;
     padding: 8px;
+    color: #fff;
+    background-color: #22213C;
     border-radius: 50%;
 }
