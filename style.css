@@ -76,6 +76,11 @@ body {
     width: 70%;
     position: relative;
     top: -70px;
+    transition: transform 0.5s;
+}
+
+.journey-right:hover img {
+    transform: scale(1.25);
 }
 
 /* Popular Collection */
