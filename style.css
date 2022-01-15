@@ -125,6 +125,10 @@ body {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.product-image img {
+    width: 100%;
+}
+
 .product-name {
     color: #18191F;
     font-size: 28px;
@@ -282,6 +286,9 @@ footer .social-media-icons .fab{
     }
     .reviews {
         grid-template-columns: 1fr;
+    }
+    .prebook-button {
+        padding: 5px 10px;
     }
 }
 
