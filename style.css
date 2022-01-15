@@ -163,6 +163,58 @@ body {
     font-weight: 700;
 }
 
+/* Customer Reviews */
+
+.customer-reviews {
+    margin: 100px 0;
+}
+
+.customer-reviews > h4 {
+    text-align: center;
+    color: #E02C6D;
+    font-size: 20px;
+}
+
+.customer-reviews > h2 {
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.review {
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 5px 5px gray;
+}
+
+.reviewer-name {
+    color: #3A3A3A;
+    float: left;
+    margin-right: 20px;
+}
+
+.reviewer-job {
+    font-family: 'Inter', sans-serif;
+    color: #52525e;
+    font-weight: 400;
+    clear: left;
+    margin: 7px 0;
+}
+
+.review img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: right;
+}
+
 /* Footer */
 
 footer {
